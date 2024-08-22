@@ -1,5 +1,7 @@
 # chat_with_SQL_Database
 this is the demo project where we are interacting with the SQL database with the help of prompt given to google Generative AI
+# Note
+for security reason google generative AI api key stored in **.env** file is masked to use this repo you need to get your own api key and put it in **google_api_key** variable inside **.env** file
 # Workflow
 1. we created the Dummy database **student.db** using python sqlite3 framework. database contains student names and their marks in respective subjects
 2. for using the google Generative AI we need api key, in this case api key was stored in .env file
